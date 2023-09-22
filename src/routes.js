@@ -8,4 +8,4 @@ routes.get('/users/:id', UserController.index1);
 routes.put('/users/:id', UserController.update);
 routes.delete('/users/:id',UserController.delete)
 
-module.exports = routes
+module.exports = routes;
